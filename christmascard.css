@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: orange;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 800px;
+    height: 510px;
+    background-color: white;
+    position: relative;
+    
+}
+.left{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+
+}
+.right{
+    width: 50%;
+    height: 500px;
+    background-color:white
+}
+.content{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content4{
+display:flex ;
+flex-direction: row;
+gap: 10px;
+
+}
+.circle1{
+    background-color:rgb(143, 143, 209);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.circle2{
+    background-color:purple;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.circle3{
+    background-color:red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.circle4{
+    background-color:orangered;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.circle5{
+    background-color:greenyellow;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+.textContent1{
+    background-color: rgb(209, 209, 243);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar{
+    margin-top: 49px;
+}
+.myBtn{
+    background-color: black;
+    height: 30px;
+    width: 50px;
+}
+
+.textContent{
+    background-color: gray;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar1{
+    margin-top: 10px;
+}
+h5{
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    position: absolute;
+    height: 10px;
+    width: 5px;
+    top: -8px;
+    right: 25px;
+}

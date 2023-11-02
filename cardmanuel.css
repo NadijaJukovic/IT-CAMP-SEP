@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.textContent{
+    width: 500px;
+    height: 200px;
+    background-color:white;
+
+}
+.numbers{
+width: 500px;
+height: 200px;
+background-color:white;
+}
+.circle1{
+    background-color: blue;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+
