@@ -1,0 +1,22 @@
+body,
+html{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(138, 138, 179);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 33.2%;
+    height: 200px;
+    background-color: rgb(206, 173, 130);
+    border: 1px solid black;
+}
