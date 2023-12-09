@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #66aaaa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    padding-top: 20px;
+
+}
+.navbar span{
+    color: white;
+
+}
+#kevin {
+    margin-left: 200px;
+    margin-right: 550px;
+   
+}
+.cntr {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+
+button {
+    margin-top: 15px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    width: 150px;
+    
+}

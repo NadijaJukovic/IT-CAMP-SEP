@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    border-radius: 5px;
+    border-bottom: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prvi{
+    top: 10px;
+	font-size: 2em;
+    color: blue;
+}
+
+.drugi{
+    position: absolute;
+	top: 18px;
+	right: 20px;
+	font-size: 1.3em;
+}
+
+.iks {
+    font-size: 40px;
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width:400px){
+    .drugi{
+        display: none;
+    }
+
+    .iks{
+        display: block;
+    }
+
+
+}

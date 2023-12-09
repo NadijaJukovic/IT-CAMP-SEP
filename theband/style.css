@@ -1,0 +1,541 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    position: fixed;
+}
+.left{
+    color: white;
+    display: flex;
+
+    
+
+}
+
+
+.buttonx1{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+
+.buttonx1:hover{
+background-color: gainsboro;
+color: black;
+
+}
+
+.buttonx2{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+
+.buttonx2:hover{
+background-color: gainsboro;
+color: black;
+
+}
+
+.buttonx3{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+
+.buttonx3:hover{
+background-color: gainsboro;
+color: black;
+
+}
+
+.buttonx4{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+
+.buttonx4:hover{
+background-color: gainsboro;
+color: black;
+
+}
+
+.buttonx5{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttonx5:hover{
+background-color: gainsboro;
+color: black;
+
+}
+
+.nuna{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuna:hover{
+    background-color: red;
+}
+
+
+
+
+
+.img1{
+   height: 100vh;
+   width: 100%;
+   background-size: 100% 100%;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: end;
+   animation-name: image-animation;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+
+   
+
+}
+
+@keyframes image-animation{
+     0%{
+         background-image: url(https://www.w3schools.com/w3images/ny.jpg);
+     }
+     50%{
+        background-image: url(https://www.w3schools.com/w3images/chicago.jpg);
+     }
+     100%{
+        background-image: url(https://www.w3schools.com/w3images/la.jpg);
+     }
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   padding: 100px;
+   margin: 50px;
+    
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    
+    
+}
+.card1{
+    background-color: aqua;
+    height: 200px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+    border-radius: 5%;
+
+}
+
+.card2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+    border-radius: 5%;
+}
+
+.card3{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+    border-radius: 5%;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.main2{
+    background-color: black;
+    height: 1050px;
+    width: 1519px;
+    margin-top : 100px;
+}
+
+.text2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+}
+
+.cardm1{
+    height: 42px;
+    width: 750px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5px;
+}
+
+.cardm2{
+    height: 42px;
+    width: 750px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5px;
+
+
+}
+
+.cardm3{
+    height: 42px;
+    width: 750px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 600px;
+    padding-left: 5px;
+}
+
+.main2card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redcard1{
+    height: 25px;
+    width: 68px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.redcard2{
+    height: 25px;
+    width: 68px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card1citi{
+    height: 435px;
+    width: 240px;
+    background-color: white;
+}
+
+.card2citi{
+    height: 435px;
+    width: 240px;
+    background-color: white;
+}
+
+.card3citi{
+    height: 435px;
+    width: 240px;
+    background-color: white;
+}
+
+.cities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.textciti{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: -15px
+}
+
+.buttonciti{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.textciti1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: -15px
+}
+
+.buttonciti1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   width: 100px;
+   height: 40px;
+   color: white;
+
+}
+
+.textciti2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: -15px
+}
+
+.buttonciti2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   width: 100px;
+   height: 40px;
+   color: white;
+
+}
+
+.buttonciti:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.buttonciti1:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.buttonciti2:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.img3:hover{
+    background-color: gainsboro;
+}
+
+.main3{
+    height: 450px;
+    width: 1519px;
+    background-color: white;
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.nadija1{
+    display: flex;
+    margin-top: 4px;
+    height: 300px;
+    width: 1519px;
+    background-color: white;
+    gap: 0px;
+    
+}
+.left1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.right1{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+}
+    
+
+.right13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.help1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.help2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.help3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+::placeholder{
+    color: grey;
+}
+
+
+input[type=text]{
+    padding: 12px;
+
+}
+
+::placeholder{
+    color: grey;
+}
+
+input1[type=text]{
+    padding: 12px;
+    width: 150px;
+
+}
+
+.buttonnadija{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hana{
+    height: 200px;
+    width: 1519px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.buttonnadija:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.le{
+    display: flex;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 28px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+
+
+
+@media only screen and (max-width:450px){
+    body{
+        font-size: 0.8em;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .text1{
+        flex-direction: column;
+        
+    }
+
+    .main2card{
+        flex-direction: column;
+    }
+
+    .cities{
+        flex-direction: row;
+
+    }
+
+
+
+
+
+
+}

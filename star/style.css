@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    animation-name: star1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.star{
+margin-top: 10px;
+padding: 14px;
+}
+
+@keyframes star1{
+    0%{
+        
+    }
+}
